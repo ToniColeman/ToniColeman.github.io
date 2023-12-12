@@ -35,7 +35,7 @@ const config = {
   skills: [
     'C#',
     'SQL',
-    'Cloud Architecture'
+    'Cloud Architecture',
     'AWS',
     'Visual Studio',
     'Packet Tracer',
