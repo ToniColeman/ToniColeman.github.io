@@ -35,11 +35,11 @@ const config = {
   skills: [
     'C#',
     'SQL',
-    'Visual Studios',
+    'Cloud Architecture'
+    'AWS',
+    'Visual Studio',
     'Packet Tracer',
-    'Excel',
-    'Word',
-    'PowerPoint',
+    'Microsoft Excel',
   ],
   experiences: [
     {
@@ -57,26 +57,32 @@ const config = {
       companyLink: 'https://www.wholefoodsmarket.com/',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'AWS Academy Graduate - AWS Academy Cloud Foundations',
+      body: 'Earners of this badge have taken the AWS Academy Cloud Foundations course.',
+      year: 'December 2023',
+      link: 'https://www.credly.com/badges/6fa7bb8b-322f-4d2d-b1db-a3f9b24cf3ee/linked_in_profile'
     },
-  ], */
+    {
+      name: 'ISC2 Candidate',
+      body: 'ISC2 Candidates are individuals pursuing or considering a cybersecurity certification. To become a Candidate, the individual must apply online and provide minimum identifying information, as well as affirm that they will abide by the ISC2 Code of Ethics and Privacy Policy.',
+      year: 'September 2023',
+      link: 'https://www.credly.com/badges/a1664352-4ea2-4686-87dc-ba042fef3b73/linked_in_profile'
+    },
+    {
+      name: 'Introduction to Packet Tracer',
+      body: 'Cisco verifies the earner of this badge has knowledge and skills to create digital models of IP Networks and IoT Systems using Cisco Packet Tracer.',
+      year: 'September 2023',
+      link: 'https://www.credly.com/badges/a5ad6833-6759-472b-b701-b4efcc051871/linked_in_profile'
+    },
+  ],
   education: [
     {
       institution: 'East Carolina University',
       degree: 'Bachelor of Science in Business Administration',
       from: '2020',
       to: '2024',
-    },
-    {
-      institution: '',
-      degree: '',
-      from: '',
-      to: '',
     },
   ],
 
@@ -120,7 +126,7 @@ const config = {
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Hide the ring in Profile picture
     hideAvatarRing: false,
