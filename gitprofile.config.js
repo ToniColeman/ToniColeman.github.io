@@ -89,18 +89,11 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Home Network Diagram',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'This is a narrated PowerPoint describing a home network, using my home as an example. The presentation includes information on how data enters, exits, and interconnects, along with a heatmap to display wireless signal degradation over distance.',
+      imageUrl: 'https://drive.google.com/file/d/1dNbrKvPDltmJRlWQX0Yd72fKkFgDCOCa/view',
+      link: 'https://drive.google.com/uc?export=download&id=1uQjj15FN7fZPRIw2B7ie40s3oNef7ECv',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
